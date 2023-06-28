@@ -1,0 +1,80 @@
+.hero-section {
+  display: flex;
+}
+
+.hero__article {
+  margin-top: 3rem;
+}
+
+.hero__title {
+  font-size: 3.7rem;
+  font-weight: 500;
+  max-width: 50rem;
+}
+
+.hero__para {
+  font-size: 1.25rem;
+  line-height: 28px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 3.5rem;
+  max-width: 40rem;
+}
+
+.hero-btn {
+  position: relative;
+  display: inline-block;
+  background-color: var(--dark);
+  color: var(--grey);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 14px;
+  border: none;
+  background: var(--dark);
+  padding: 1rem;
+  color: var(--grey);
+  margin-bottom: 3rem;
+}
+
+.hero-btn::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0.3) 30%,
+    rgba(255, 255, 255, 0.6) 60%,
+    rgba(255, 255, 255, 0.3) 90%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: scale(0);
+  transition: transform 0.5s;
+  pointer-events: none;
+}
+
+.hero-btn:hover::before {
+  transform: scale(2);
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: ripple 1s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-between;
+}

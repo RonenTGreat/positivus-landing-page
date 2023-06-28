@@ -3,7 +3,7 @@ import "./header.styles.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className="container">
       <a href="/.">
         <img src={logo} className="logo" alt="logo" />
       </a>
@@ -34,7 +34,9 @@ const Header = () => {
               Blog
             </a>
           </li>
-          <a href="/#" className="btn-link">Request a quote</a>
+          <a href="/#" className="btn-link">
+            Request a quote
+          </a>
         </ul>
       </nav>
     </header>
