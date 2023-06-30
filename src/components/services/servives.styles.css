@@ -20,10 +20,10 @@
   font-size: 1.12rem;
 }
 
-.services__cards{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 2rem;
+.services__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
 }
 
 .card {
@@ -35,21 +35,26 @@
   box-shadow: 0px 5px 0px 0px #191a23;
   padding: 2rem;
   width: 90%;
+  cursor: pointer;
 }
 
-.card img{
+.card:hover {
+  box-shadow: 0px 5px 0px 0px white;
+}
+
+.card img {
   width: 35%;
 }
 
-.card.green-bg{
-  background: var(--green, #B9FF66);
+.card.green-bg {
+  background: var(--green, #b9ff66);
 }
 
-.card.black-bg{
-  background: var(--dark, #191A23);
+.card.black-bg {
+  background: var(--dark, #191a23);
 }
 
-.card.black-bg a{
+.card.black-bg a {
   color: white;
 }
 
@@ -60,24 +65,21 @@
   border-radius: 0.4rem;
 }
 
-.card__details h3.white-bg{
+.card__details h3.white-bg {
   background-color: white;
 }
 
-
-.card__details h3:nth-child(2){
-    width: 89%;
-    margin-bottom: 3rem;
+.card__details h3:nth-child(2) {
+  width: 89%;
+  margin-bottom: 3rem;
 }
 
-
-.card__details a:nth-child(3){
-    display: flex;
-    align-items: center;
+.card__details a:nth-child(3) {
+  display: flex;
+  align-items: center;
 }
 
-.card__details a:nth-child(3) img{
-    width: 2rem;
-    margin-right: 0.5rem;
-
+.card__details a:nth-child(3) img {
+  width: 2rem;
+  margin-right: 0.5rem;
 }
