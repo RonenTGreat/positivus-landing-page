@@ -83,3 +83,16 @@
   width: 2rem;
   margin-right: 0.5rem;
 }
+
+.proposal-card {
+  display: flex;
+  align-items: center;
+  border-radius: 2.8125rem;
+  background: var(--grey, #f3f3f3);
+  padding: 0rem 3.75rem;
+  margin-top: 5rem;
+}
+
+.proposal-card img{
+  width: 30%;
+}
