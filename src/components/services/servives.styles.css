@@ -9,7 +9,7 @@
   margin-bottom: 2rem;
 }
 
-.services__header h2 {
+.sub-heading {
   font-size: 2.5rem;
   background-color: var(--green);
   padding: 0.2rem;
@@ -87,12 +87,20 @@
 .proposal-card {
   display: flex;
   align-items: center;
+  gap: 17.1875rem;
   border-radius: 2.8125rem;
   background: var(--grey, #f3f3f3);
-  padding: 0rem 3.75rem;
+  padding: 1.5rem 3.75rem;
   margin-top: 5rem;
 }
 
-.proposal-card img{
+.proposal-card div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.625rem;
+}
+
+.proposal-card img {
   width: 30%;
 }
