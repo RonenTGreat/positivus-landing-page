@@ -1,0 +1,19 @@
+.case-header {
+  display: flex;
+  column-gap: 3rem;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.case-header p {
+  flex-basis: 30rem;
+}
+
+.cases {
+  display: flex;
+  padding: 4.375rem 3.75rem;
+  align-items: flex-start;
+  gap: 4rem;
+  border-radius: 2.8125rem;
+  background: var(--dark, #191a23);
+}
