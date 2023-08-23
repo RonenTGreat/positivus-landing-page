@@ -1,0 +1,63 @@
+.process-card {
+  display: flex;
+  width: 77.125rem;
+  padding: 2.5625rem 3.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+
+  border-radius: 2.8125rem;
+  border: 1px solid #191a23;
+  background: var(--grey, #f3f3f3);
+  box-shadow: 0px 5px 0px 0px #191a23;
+}
+
+.green{
+    background-color: var(--green);
+}
+
+.card-header {
+  display: flex;
+  width: 69.8125rem;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--dark);
+}
+
+.card-number {
+  color: var(--dark);
+  font-size: 3.75rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-header div {
+  display: flex;
+  align-items: center;
+  gap: 1.5625rem;
+}
+
+.card-title {
+  color: var(--dark);
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-body {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1rem;
+}
+
+.process-card svg:hover {
+  cursor: pointer;
+}
+
+.line {
+  width: 69.625rem;
+  height: 0.0625rem;
+  background-color: var(--dark);
+  border: none;
+}
