@@ -1,4 +1,4 @@
-import Casestudies from "./casestudies/casestudies.component";
+import Casestudies from "./components/casestudies/casestudies.component";
 import Header from "./components/header/header.component";
 import Hero from "./components/hero/hero.component";
 import Services from "./components/services/services.component";

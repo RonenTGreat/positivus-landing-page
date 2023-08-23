@@ -17,3 +17,21 @@
   border-radius: 2.8125rem;
   background: var(--dark, #191a23);
 }
+
+.cases p {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cases a{
+  color: var(--green);
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.cases a:hover{
+  opacity: 0.8;
+}
