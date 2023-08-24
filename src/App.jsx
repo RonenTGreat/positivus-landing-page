@@ -3,6 +3,7 @@ import Header from "./components/header/header.component";
 import Hero from "./components/hero/hero.component";
 import Processes from "./components/processes/processses.component";
 import Services from "./components/services/services.component";
+import Team from "./components/team/team.component";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Services />
       <Casestudies />
       <Processes />
+      <Team />
     </>
   );
 }
