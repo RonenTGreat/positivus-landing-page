@@ -32,6 +32,7 @@ const Casestudies = () => {
             </svg>
           </a>
         </p>
+        <div className="vl"></div>
         <p>
           For a B2B software company, we developed an SEO strategy that resulted
           in a first page ranking for key keywords and a 200% increase in
@@ -52,6 +53,7 @@ const Casestudies = () => {
             </svg>
           </a>
         </p>
+        <div className="vl"></div>
         <p>
           For a national retail chain, we created a social media marketing
           campaign that increased followers by 25% and generated a 20% increase

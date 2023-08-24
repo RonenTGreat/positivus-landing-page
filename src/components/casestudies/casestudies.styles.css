@@ -1,3 +1,7 @@
+.case-section {
+  margin: 6rem 0;
+}
+
 .case-header {
   display: flex;
   column-gap: 3rem;
@@ -25,13 +29,18 @@
   line-height: normal;
 }
 
-.cases a{
+.cases a {
   color: var(--green);
   display: flex;
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
 
-.cases a:hover{
+.cases a:hover {
   opacity: 0.8;
+}
+
+.vl {
+  border-left: 1px solid white;
+  height: 11.625rem;
 }
