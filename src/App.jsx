@@ -1,4 +1,5 @@
 import Casestudies from "./components/casestudies/casestudies.component";
+import Footer from "./components/footer/footer.component";
 import Header from "./components/header/header.component";
 import Hero from "./components/hero/hero.component";
 import Processes from "./components/processes/processses.component";
@@ -14,6 +15,7 @@ function App() {
       <Casestudies />
       <Processes />
       <Team />
+      <Footer />
     </>
   );
 }
