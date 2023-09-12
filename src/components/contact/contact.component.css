@@ -91,7 +91,7 @@
 }
 
 .name-form input[type="text"],
-input[type="email"] {
+.name-form input[type="email"] {
   display: flex;
   width: 34.75rem;
   padding: 1.125rem 1.875rem;

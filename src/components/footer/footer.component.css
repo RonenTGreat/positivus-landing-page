@@ -87,6 +87,7 @@
 }
 
 #email {
+  color: white;
   display: flex;
   width: 17.8125rem;
   padding: 1.375rem 2.1875rem;
@@ -94,5 +95,9 @@
   gap: 0.625rem;
   border-radius: 0.875rem;
   border: 1px solid #fff;
+  background-color: transparent;
+}
+
+#email:focus-within{
   background-color: transparent;
 }
