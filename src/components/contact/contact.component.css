@@ -1,5 +1,10 @@
+.contact-section {
+  margin-bottom: 8rem;
+}
+
 .contact-form {
   display: flex;
+  position: relative;
   width: 77.5rem;
   padding: 3.75rem 6.25rem 5rem 6.25rem;
   align-items: flex-start;
@@ -51,7 +56,7 @@
   background-color: #ccc;
 }
 
-/* When the radio button is checked, add a blue background */
+/* When the radio button is checked, add a whie background */
 .radio-container input:checked ~ .checkmark {
   background-color: white;
 }
@@ -76,4 +81,97 @@
   height: 15px;
   border-radius: 50%;
   background: var(--green);
+}
+
+.name-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5625rem;
+}
+
+.name-form input[type="text"],
+input[type="email"] {
+  display: flex;
+  width: 34.75rem;
+  padding: 1.125rem 1.875rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  border-radius: 0.875rem;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.name-form textarea {
+  display: flex;
+  width: 34.75rem;
+  height: 11.875rem;
+  padding: 1.125rem 1.875rem;
+  align-items: flex-start;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 0.875rem;
+  border: 1px solid #000;
+  background: #fff;
+  resize: none;
+}
+
+.btn-submit {
+  position: relative;
+  display: inline-block;
+  background-color: var(--dark);
+  color: var(--grey);
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 14px;
+  border: none;
+  background: var(--dark);
+  padding: 1rem 3rem;
+  color: var(--grey);
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  width: 34.75rem;
+}
+
+.btn-submit::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0) 20%,
+    rgba(255, 255, 255, 0.3) 30%,
+    rgba(255, 255, 255, 0.6) 60%,
+    rgba(255, 255, 255, 0.3) 90%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: scale(0);
+  transition: transform 0.5s;
+  pointer-events: none;
+}
+
+.btn-submit:hover::before {
+  transform: scale(2);
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: ripple 1s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
+
+.contact-illustration {
+    position: absolute;
+    right: -20.3rem;
 }

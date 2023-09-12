@@ -1,4 +1,5 @@
 import "./contact.component.css";
+import illustration from "../../assets/Illustration-contact.png"
 
 const Contact = () => {
   return (
@@ -22,19 +23,23 @@ const Contact = () => {
             </label>
           </div>
 
-          <div>
+          <div className="name-form">
             <label>
               <p>Name</p>
               <input type="text" placeholder="Name" />
             </label>
             <label>
               <p>Email*</p>
-              <input type="email" placeholder="Email" />
+              <input type="email" required placeholder="Email" />
             </label>
-            <p>Message*</p>
-            <textarea required cols="40" rows="8"></textarea>
+            <label>
+              <p>Message*</p>
+              <textarea required placeholder="Message" ></textarea>
+            </label>
           </div>
+          <button type="submit" className="btn-submit">Send Message</button>
         </div>
+        <img src={illustration} className="contact-illustration" />
       </form>
     </section>
   );
