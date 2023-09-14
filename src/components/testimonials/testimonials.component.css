@@ -1,0 +1,10 @@
+.case-header {
+    display: flex;
+    column-gap: 3rem;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  
+  .case-header p {
+    flex-basis: 33rem;
+  }
