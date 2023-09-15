@@ -3,18 +3,14 @@
   color: white;
 }
 
-.testimonial-item img{
-    margin-left: 25%;
+.testimonial-item img {
+  margin-left: 25%;
 }
 
-.testimonial-item .description{
-    text-align: center;
-    position: absolute;
-    top: 6rem;
-    left: 22rem;
-    width: 31.375rem;
-
-
+.testimonial-item .description {
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  left: 12rem;
+  width: 31.375rem;
 }
-
-

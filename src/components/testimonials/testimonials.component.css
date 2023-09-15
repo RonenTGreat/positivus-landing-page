@@ -9,11 +9,7 @@
   flex-basis: 33rem;
 }
 
-.testimony {
-  position: relative;
-  padding: 5.25rem 0rem 4.25rem 0rem;
-  width: 77rem;
-  align-items: center;
-  border-radius: 2.8125rem;
-  background: var(--Dark, #191a23);
+.swiper-button-next{
+  background-image: url("../../assets/arrow-right.png");
+  background-repeat: no-repeat;
 }
