@@ -9,7 +9,24 @@
   flex-basis: 33rem;
 }
 
-.swiper-button-next{
+.testimony {
+  padding: 5.25rem 0rem 4.25rem 0rem;
+  align-items: center;
+  border-radius: 2.8125rem;
+  background: var(--Dark, #191a23);
+}
+
+.swiper-button-next {
   background-image: url("../../assets/arrow-right.png");
   background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+  background-image: url("../../assets/arrow-left.png");
+  background-repeat: no-repeat;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "" !important;
 }
