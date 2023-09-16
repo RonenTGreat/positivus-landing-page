@@ -9,7 +9,7 @@ const TestimonialItem = ({ name, title, desc }) => {
         <p className="description">{desc}</p>
       </div>
       <div className="person-wrapper">
-        <p className="name">{name}</p>
+        <h4 className="name">{name}</h4>
         <p className="title">{title}</p>
       </div>
     </section>

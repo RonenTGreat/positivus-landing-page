@@ -14,3 +14,13 @@
   left: 12rem;
   width: 31.375rem;
 }
+
+.person-wrapper {
+  position: relative;
+  left: 12rem;
+}
+
+.testimonial-item .name {
+  color: var(--green);
+  font-weight: 400;
+}
