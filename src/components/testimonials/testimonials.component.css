@@ -30,3 +30,20 @@
 .swiper-button-prev:after {
   content: "" !important;
 }
+
+.swiper-pagination-bullet {
+  background-image: url("../../assets/pagination-indicator.png");
+  background-repeat: no-repeat;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0;
+  background-color: transparent;
+}
+
+.swiper-pagination-bullet-active{
+  background-image: url("../../assets/pagination-indicator-active.png");
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: -1rem;
+}
